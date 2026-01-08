@@ -22,6 +22,17 @@
     cursor: pointer;
 }
 
+.btn2{
+    /* background-color: #30B868; */
+    background: none;
+    border: 1px solid white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 12.5px 16px;
+    color: white;
+    cursor: pointer;
+}
 /* main style */
 
 nav{
@@ -44,6 +55,7 @@ nav .menu{
 
 nav .menu a{
     font-size: 16px;
+    font-weight: bold;
     line-height: 152%;
     color: black;
     text-decoration: none;
@@ -53,4 +65,71 @@ nav .menu a{
     background: url(/assets/hero-bg.png);
     width: 1600px;
     height: 674px;
+    padding: 115.5px 120px;
+    text-align: center;
+    align-items: center;
 }
+
+
+.early_thing {
+    align-items: center;   
+    color: #30B868; 
+    gap: 8px;               
+    background-color: white;
+    padding: 6px 16px;    
+    border-radius: 50px;    
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#banner .banner_content{
+    max-width: 1360px;
+    /* align-items: center; */
+}
+
+#banner .banner_content .access_button{
+    font-size: 16px;
+    color: #30B868;
+    font-weight: lighter;
+    border: none;
+}
+
+#banner .banner_content .text{
+    max-width: 770px;
+    text-align: center;
+}
+
+#banner .banner_content .text h1{
+    font-size: 72px;
+    line-height: 84px;
+    padding-top: 16px;
+    color: white;
+}
+
+#banner .banner_content .text h1 .green_text{
+    color: #30B868;
+}
+
+#banner .banner_content .text p{
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 16px;
+    padding-bottom: 34px;
+}
+
+#banner .banner_content .banner_buttons ul{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
