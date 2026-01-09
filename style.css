@@ -91,10 +91,12 @@ nav .menu a{
     align-items: center;
 }
 
-
 .early_thing {
-    align-items: center;   
-    color: #30B868; 
+    max-width: 229px;
+    display: flex;
+    margin: 0 auto;
+    color: #30B868;
+    list-style: none; 
     gap: 8px;               
     background-color: white;
     padding: 6px 16px;    
@@ -102,6 +104,7 @@ nav .menu a{
     font-size: 14px;
     font-weight: 600;
 }
+
 
 #banner .banner_content{
     max-width: 1360px;
@@ -247,6 +250,50 @@ nav .menu a{
     color: #627382;
     text-align: center;
     padding-top: 16px;
+}
+
+
+footer{
+    background-color: #001931;
+    color: white;
+    margin-top: 120px;
+}
+
+footer .footer_container{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+footer .footer_container .top_part{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 120px 80px 120px;
+}
+
+footer .footer_container .top_part .footer_social p{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+footer .footer_container .top_part .footer_social .icons{
+    display: flex;
+    gap: 16px;
+
+}
+
+a i{
+    color: white;
+}
+
+footer .footer_container .bottom_part{
+    text-align: center;
+
+}
+
+footer .footer_container .bottom_part p{
+    padding: 30px 0 30px 0;
 }
 
 
