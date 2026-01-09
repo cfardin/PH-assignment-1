@@ -33,6 +33,27 @@
     color: white;
     cursor: pointer;
 }
+
+.info_card{
+    width: 252px;
+    height: 300px;
+    padding-top: 48px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px 12px rgba(0, 0, 0, 0.039);
+}
+
+.info_card img{
+    width: 60px;
+    height: 60px;
+    padding: 14px;
+    background-color: #F95555;
+    border-radius: 50%;
+    
+}
+
+
+
+
 /* main style */
 
 nav{
@@ -84,7 +105,6 @@ nav .menu a{
 
 #banner .banner_content{
     max-width: 1360px;
-    /* align-items: center; */
 }
 
 #banner .banner_content .access_button{
@@ -125,6 +145,28 @@ nav .menu a{
     justify-content: center;
 }
 
+#about{
+    /* max-width: 1360px; */
+    text-align: center;
+    padding-top: 60px;
+}
+
+#about .about_container h1{
+    font-size: 48px;
+    padding-bottom: 16px;
+}
+
+#about .about_container p{
+    font-size: 16px;
+    color: #627382;
+    padding-bottom: 44px;
+}
+
+#about .about_container .about_cards{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
 
 
 
