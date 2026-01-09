@@ -213,6 +213,49 @@ nav .menu a{
     margin-bottom: 16px;
 }
 
+#ready{
+    max-width: 1360px;
+    background-color: #F7F6F2;
+    margin: 0 auto;
+
+}
+
+#ready .ready_container{
+    align-items:center;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#ready .ready_container h1{
+    font-size: 40px;
+    text-align: center;
+    /* padding-top: 80px; */
+    padding-bottom: 0;
+}
+
+#ready .ready_container .button_up{
+    font-size: 16px;
+    color: #627382;
+    text-align: center;
+    padding-bottom: 24px;
+    padding-top: 16px;
+}
+
+#ready .ready_container .button_down{
+    font-size: 16px;
+    color: #627382;
+    text-align: center;
+    padding-top: 16px;
+}
+
+
+
+
+
+
+
+
 
 
 
